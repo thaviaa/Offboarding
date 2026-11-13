@@ -10,7 +10,7 @@ Work on the **Team Member Offboarding** catalog item, the *OFFBOARDING: Employee
 | `actions/` | New Flow Designer action scripts: Resolve Offboarding Department, Copy Variables to Task, Apply Checklist Template |
 | `table/` | `u_offboarding_task_route` definition, seed data, system properties |
 | `scripts/` | Background scripts: seed routes, verify parity, add data records to an update set |
-| `docs/` | Story 270088 notes, subflow design, draft refactor story |
+| `docs/` | Story 270088 notes, subflow design, refactor user story |
 
 ## How offboarding tasks are created today
 
@@ -30,4 +30,4 @@ The routing moves into the `u_offboarding_task_route` table, and step 2 becomes 
 ## Stories
 
 - **270088** — Replace FlyDoc with Electronic Faxing Services on the Service Desk II checklist → [`docs/story-270088.md`](docs/story-270088.md)
-- **Refactor (draft)** → [`docs/ado-story-refactor.md`](docs/ado-story-refactor.md)
+- **Refactor user story** → [`docs/user-story-refactor.md`](docs/user-story-refactor.md)
